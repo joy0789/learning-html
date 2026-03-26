@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-Input tag</title>
 </head>
+
 <body>
     <form action="">
         <h1>Log in form</h1>
         <input type="text" placeholder="enter your name" name="" id="">
         <input type="password" placeholder="enter your password" name="" id="">
+        <input type="reset" value="reset">
         <br>
         <br>
         <input type="submit">
-        
+    </form>
+    <form action="">
+        <h1>Select a Date</h1>
+        <input type="date" name="" id="">
+        <input type="reset" value="reset">
+    </form>
+    <form action="">
+        <h1>Select your Gender</h1>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="rather not say or musfiq" value="Rather not say or musfiq">
+        <label for="rather not say or musfiq">Rather not say or musfiq</label> <br>
+        <input type="reset" value="reset">
+        <button>Submit</button>
     </form>
 </body>
+
 </html>
