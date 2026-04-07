@@ -1,0 +1,22 @@
+nav li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+    display: inline;
+    
+}
+nav {
+    text-align: center;
+}
+nav li:hover{
+    background-color: bisque;
+}
+footer{
+    text-align: center;
+}
+/* figure img{
+    width: 100%;
+} */
+nav a{
+    text-decoration: none;
+}
